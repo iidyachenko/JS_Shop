@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Бургер</title>
+</head>
+
+<body>
+    <header>
+        <p class="head_name">Выбор Бургера</p>
+    </header>
+    <main>
+        <form name="f1">
+            Размер бургера:<br>
+            <input type="radio" name="r1" id="little">Маленький<br>
+            <input type="radio" name="r1" id="big">Большой<br>
+        </form>
+
+        <form name="f2">
+            Начинка бургера:<br>
+            <input type="radio" name="r2" id="cheese">Сыр<br>
+            <input type="radio" name="r2" id="salat">Салат<br>
+            <input type="radio" name="r2" id="potato">Картофель<br>
+        </form>
+
+        <form name="f3">
+            Дополнение к бургеру:<br>
+            <input type="checkbox" name="c1" id="sauce">Приправа<br>
+            <input type="checkbox" name="c1" id="Mayonnaise">Майонез<br>
+        </form>
+
+        <button class="btn-cart" type="button" onclick="fanc()">Расчитать стоимость</button>
+        <div class="container"></div>
+    </main>
+    <script src="js/burger.js"></script>
+</body>
+
+</html>
