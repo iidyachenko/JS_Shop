@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contacts</title>
+</head>
+
+<body>
+    <div class="contacts_container">
+        <div class="contacts_main_block">
+            <form class="contacts_message_block" action="#">
+                <h4 class="header_4">Введите контактные данные</h4>
+                <p class="contact_message_text">Имя</p> <input class="input_box  input_name" type="text" size="20"
+                    placeholder="Ваше Имя"> <br>
+                <p class="contact_message_text">Телефон в формате +7(000)000-0000</p> <input
+                    class="input_box  input_phone" type="text" size="20" placeholder="+7(000)000-0000"> <br>
+                <p class="contact_message_text">Email</p> <input class="input_box  input_email" type="email" size="20"
+                    placeholder="mail@mail.ru"> <br>
+                <p class="contact_message_text">Сообщение </p>
+                <textarea class="input_box  input_message" rows="10" cols="45" name="text"
+                    placeholder="Введите ваш вопрос"></textarea>
+                <br>
+                <button class="sub_button" type="submit">Submit</button>
+                <p class="error_txt"></p>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
